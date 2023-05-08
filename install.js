@@ -35,7 +35,7 @@ const skopts = {
 	playwright: false,
 	vitest: true
 };
-create('sveltekit-skeleton', skopts)
+await create('sveltekit-skeleton', skopts)
 spawnSync("git", ['add', '--all'], { shell: true });
 spawnSync("git", ['commit', '-m', Date.now().toString()], { shell: true });
 spawnSync("git", ['push'], { shell: true });
