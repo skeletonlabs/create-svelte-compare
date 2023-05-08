@@ -16,7 +16,7 @@ so.packageManager = 'pnpm';
 so.name = 'skeleton-bare'
 // so.quiet = true;
 so.codeblocks = true;
-createSkeleton(so);
+await createSkeleton(so);
 spawnSync("git", ['add', '--all'], { shell: true });
 spawnSync("git", ['commit', '-m', Date.now().toString()], { shell: true });
 spawnSync("git", ['push'], { shell: true });
