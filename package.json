@@ -6,6 +6,7 @@
 		"inst": "node install.js"
 	},
 	"devDependencies": {
+		"@types/node": "^20.1.0",
 		"create-skeleton-app": "^0.0.36",
 		"create-svelte": "^4.1.1"
 	},
